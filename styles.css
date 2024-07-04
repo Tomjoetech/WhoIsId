@@ -1,0 +1,254 @@
+@font-face {
+    font-family: Euclid Circular A;
+    src: url("./Euclid\ Circular\ A\ Regular.ttf");
+}
+
+@font-face {
+    font-family: Euclid Circular A Bold;
+    src: url("./Euclid\ Circular\ A\ Medium.ttf");
+}
+
+@font-face {
+    font-family: Euclid Circular A light;
+    src: url('./Euclid\ Circular\ A\ Light.ttf');
+}
+
+body{
+    background-color: #F7F7F7;
+    font-family: Euclid Circular A;
+}
+
+.top{
+    margin: 16px 64px !important;
+
+
+    hr{
+        width: 30%;
+    }
+}
+
+.logo{
+    height: 63px;
+    width: 63px;
+    margin: 16px 32px 0;
+}
+
+.header{
+    font-size: 28px;
+    padding: 28px 24px;
+}
+
+.box{
+    background-color: #ffff;
+    margin: 32px;
+    border-radius: 6px;
+
+
+    .light{
+        margin-left: 38px;
+        margin-top: 24px;
+        font-weight: 300;
+        font-family: Euclid Circular A light;
+    }
+
+    .certification{
+        margin-top: 24px;
+        margin-left: 30px;
+        font-size: 12px;
+        font-weight: 300;
+        font-family: Euclid Circular A light;
+    }
+}
+
+.profile{
+    height: 140px;
+    width: 140px;
+    /* margin-left: 32px; */
+    margin-bottom: 16px;
+}
+
+.details{
+    font-size: 12px;
+    margin-bottom: 31px;
+
+    .info{
+        font-family: Euclid Circular A Bold;
+        font-weight: 500;
+        font-size: 14px;
+        padding-bottom: 4px;
+    }
+
+    .names{
+        font-family: Euclid Circular A Bold;
+        font-weight: 500;
+        font-size: 16px;
+        padding-bottom: 4px;
+    }
+
+    .tag{
+        font-family: Euclid Circular A;
+        font-size: 12px;
+        padding-bottom: 4px;
+        color: #667085;
+    }
+
+    .verifstatus{
+        font-family: Euclid Circular A;
+        font-weight: 400;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        font-size: 16px;
+        padding-bottom: 4px;
+    }
+    
+    p{
+        margin-bottom: 0;
+
+        span{
+            color: #027A48;
+        }
+    }
+}
+
+
+.first{
+    margin-left: 32px;
+}
+
+
+
+
+.last{
+    padding-right: 24px;
+}
+
+
+.my-button{
+    border: none;
+    border-radius: 8px;
+    background-color: #ECFDF3;
+    color: #027A48;
+    font-size: 16px;
+    width: 92px;
+    height: 46px;
+    padding: 12px, 8px, 12px, 8px;
+    margin: 22px 32px;
+}
+
+.info-group{
+    margin-left: 38px;
+    margin-right: 32px;
+    padding-bottom: 40px;
+
+    .details{
+        margin-bottom: 16px;
+
+        hr{
+            margin-top: 0px;
+        }
+
+
+        p{
+            padding-bottom: 12px;
+
+        }
+
+        img{
+            height: 15px;
+            width: 18px;
+        }
+    }
+}
+
+
+
+.pics{
+    padding:32px 24px;
+    img{
+        width: 240px;
+        height: 240px;
+        margin-bottom: 24px;
+    }
+}
+
+.los{
+    padding-bottom: 48px;
+}
+
+.shift-left{
+    position: relative;
+    left: 32px;
+}
+
+.shift-right{
+    position: relative;
+    right: 32px;
+}
+
+.lower{
+    position: relative;
+    bottom: 64px;
+}
+
+.upper{
+    position: relative;
+    bottom: 32px;
+}
+
+.sign{
+    hr{
+        width: 170%;
+        font-weight: bold;
+        color: #000;
+        size: 2px;
+    }
+}
+
+.bottom{
+    margin-left: 64px;
+    margin-right: 64px;
+    position: relative;
+    bottom:96px;
+}
+
+.id{
+    width:30%;
+    margin-left: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 8px;
+
+}
+
+.data{
+    width: 94px;
+    height: 90px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.li{
+    margin-left: 0px !important;
+    margin-top: 4px !important ;
+}
+
+.low{
+    position: relative;
+    top: 16px;
+}
+
+.side{
+    margin-left: 32px;
+    margin-right: 4px;
+    font-weight: 400;
+    font-family: Euclid Circular A Bold;
+    font-size: 16px;
+    line-height: 28.8px;
+    margin-bottom: 32px;
+}
+
+.x-box{
+    margin-left: 32px;
+    margin-bottom: 30px;
+}
